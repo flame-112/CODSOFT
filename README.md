@@ -11,13 +11,13 @@ Each project demonstrates practical Python concepts through real-world applicati
 3. [TaskTrackr – CLI To-Do List App](./Task_3_TaskTrackr)
 
 ## 📽️ Demo Videos
-Demo videos for each task are uploaded on [LinkedIn](https://www.linkedin.com) and tagged with **#codsoft**.
+Demo videos for each task are uploaded on [LinkedIn]([https://www.linkedin.com](https://www.linkedin.com/in/ayush-kushwaha-b69a42374/)) and tagged with **#codsoft**.
 
 ---
 
 ## 📧 Contact
 
 **Intern:** Ayush Kumar Kushwaha
-**GitHub:** [github.com/yourusername](https://github.com/flame-112)  
+**GitHub:** [github.com/flame-112](https://github.com/flame-112)  
 **Email:** ak.flame.05@gmail.com
  
