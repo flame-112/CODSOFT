@@ -11,7 +11,7 @@ Each project demonstrates practical Python concepts through real-world applicati
 3. [TaskTrackr – CLI To-Do List App](./Task_3_TaskTrackr)
 
 ## 📽️ Demo Videos
-Demo videos for each task are uploaded on [LinkedIn]([https://www.linkedin.com](https://www.linkedin.com/in/ayush-kushwaha-b69a42374/)) and tagged with **#codsoft**.
+Demo videos for each task are uploaded on [LinkedIn](https://www.linkedin.com/in/ayush-kushwaha05/) and tagged with **#codsoft**.
 
 ---
 
