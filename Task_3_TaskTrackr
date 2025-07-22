@@ -1,0 +1,42 @@
+# TaskTrackr - A simple CLI to-do list app
+
+task_log = []
+
+def show_tasks():
+    if not task_log:
+        print("No tasks yet.")
+    else:
+        for idx, task in enumerate(task_log, 1):
+            print(f"{idx}. {task}")
+
+def main():
+    print("📝 Welcome to TaskTrackr")
+    while True:
+        print("\nOptions: [add | list | remove | quit]")
+        action = input("Enter your choice: ").lower()
+
+        if action == 'add':
+            new_task = input("What task would you like to add? ")
+            task_log.append(new_task)
+            print("Task added!")
+        elif action == 'list':
+            show_tasks()
+        elif action == 'remove':
+            show_tasks()
+            try:
+                rm_idx = int(input("Enter task number to remove: ")) - 1
+                if 0 <= rm_idx < len(task_log):
+                    removed = task_log.pop(rm_idx)
+                    print(f"Removed task: {removed}")
+                else:
+                    print("Invalid task number.")
+            except ValueError:
+                print("Please enter a valid number.")
+        elif action == 'quit':
+            print("Goodbye!")
+            break
+        else:
+            print("Unknown command.")
+
+if __name__ == "__main__":
+    main()
